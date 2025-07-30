@@ -1,0 +1,93 @@
+# -----------------------
+# Python & Virtual Environment
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pythonenv*/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.core
+*.orig
+*.rej
+.*.swp
+*.swo
+*~
+
+# Virtual Environment (common)
+venv/
+.venv/
+env/
+
+# -----------------------
+# Secrets & Environment
+# -----------------------
+# NEVER commit API keys
+.env
+.env.local
+.env.dev
+.env.production
+
+# -----------------------
+# AI/ML Specific
+# -----------------------
+# FAISS vector store (can be regenerated)
+/faiss_index/
+*.faiss
+*.pkl
+
+# Hugging Face & Sentence Transformers cache
+~/.cache/huggingface/
+.cache/huggingface/
+sentence_transformers/
+instructor/
+
+# Ollama (not used, but safe to ignore)
+ollama
+
+# -----------------------
+# Databases & Logs
+# -----------------------
+chat_memory.db
+*.log
+logs/
+temp/
+tmp/
+
+# -----------------------
+# Editors & IDEs
+# -----------------------
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+.history
+
+# PyCharm
+.idea/
+*.iml
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

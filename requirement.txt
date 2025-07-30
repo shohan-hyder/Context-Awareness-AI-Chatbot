@@ -1,0 +1,13 @@
+langchain
+langchain-groq
+langchain-community
+faiss-cpu
+pypdf
+python-docx
+docx2txt
+tiktoken
+SQLAlchemy
+groq
+python-dotenv
+sentence-transformers
+InstructorEmbedding
