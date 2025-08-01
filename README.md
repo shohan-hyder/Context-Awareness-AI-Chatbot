@@ -91,4 +91,3 @@ Context-Awareness-AI-Chatbot/
 
 > Made with ❤️ using **LangChain**, **GROQ**, and **FAISS**  
 > A clean, context-aware AI agent for personal knowledge management.
-```
